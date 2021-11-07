@@ -1,0 +1,6 @@
+---
+- name: Patch hosts
+  hosts: all
+  become: true
+  roles:
+    - role: yum-update

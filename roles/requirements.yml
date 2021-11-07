@@ -1,0 +1,4 @@
+- name: yum-update
+  src: https://github.com/AlexH0661/yum-update.git
+  scm: git
+  version: develop
